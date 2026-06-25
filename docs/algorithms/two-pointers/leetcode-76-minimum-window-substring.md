@@ -77,5 +77,5 @@ impl Solution {
 ## Review Notes
 
 - Find out the requirements for the moves of left and right boundires.
-- `matched` should count satisfied character groups, not total matched characters.
+- `matched` should count total matched characters. The comparison uses `<=` for exact match.
 - The left pointer only moves after the current valid window has been considered.
